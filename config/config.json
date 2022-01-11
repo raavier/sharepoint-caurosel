@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sharepoint-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharepointCarousel/SharepointCarouselWebPart.js",
+          "manifest": "./src/webparts/sharepointCarousel/SharepointCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharepointCarouselWebPartStrings": "lib/webparts/sharepointCarousel/loc/{locale}.js"
+  }
+}
