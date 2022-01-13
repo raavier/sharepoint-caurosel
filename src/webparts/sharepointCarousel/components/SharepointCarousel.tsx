@@ -75,7 +75,7 @@ export const DotActive = styled.div`
 
 export const ImageContainer = styled.div`
 	position: relative;
-    width: 70%;
+    width: 100%;
     height: 100%;
     float: right;
     overflow: hidden;
@@ -83,6 +83,7 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
 	position: absolute;
+    width:100%;
     height: 100%;
     top: 0;
     right: 0;
@@ -116,7 +117,8 @@ export const BannerButton = styled.a`
     border-radius: 4px;
     padding: 10px 15px;
     width: 97px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
     color: #fff;
     text-decoration: none;
 `
